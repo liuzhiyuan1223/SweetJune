@@ -48,7 +48,7 @@ class FloatTools private constructor() {
     fun createFloateView(activity: FragmentActivity, listener: IStartWebListener) {
         if(mFloatView == null) {
             val funClickModels = FunctionConfig().buildFunConfig(activity, listener)
-            mFloatView = createFloateView(activity, funClickModels)
+            mFloatView = createFloateView(getContext(), funClickModels)
             initViewParams()
             windowManager.addView(mFloatView, layoutParams)
         }else{
