@@ -16,15 +16,29 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+
+<!--    <com.example.tools.float_tool_2.view.CircleView-->
+<!--        android:layout_width="50dp"-->
+<!--        android:layout_height="50dp"-->
+<!--        app:layout_constraintBottom_toTopOf="@id/mTvStartFloatView"-->
+<!--        app:layout_constraintLeft_toLeftOf="parent"/>-->
+
+<!--    <com.example.tools.float_tool_2.view.cicle-->
+<!--        android:layout_width="50dp"-->
+<!--        android:layout_height="50dp"-->
+<!--        app:layout_constraintBottom_toTopOf="@id/mTvStartFloatView"-->
+<!--        app:layout_constraintLeft_toLeftOf="parent"/>-->
+
     <TextView
         android:id="@+id/mTvStartFloatView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="创建悬浮窗"
+        android:text="2 创建悬浮窗"
         android:textSize="16sp"
         android:textStyle="bold"
         android:gravity="center"
         android:padding="10dp"
         app:layout_constraintBottom_toBottomOf="parent"/>
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

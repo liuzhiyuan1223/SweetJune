@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/teal_200">
+
+    <EditText
+        android:id="@+id/mEtMsg"
+        android:layout_width="250dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:gravity="top|left"
+        android:hint="输入跳转地址"/>
+
+    <ImageView
+        android:id="@+id/mIvClose"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/ic_close"
+        android:layout_alignTop="@id/mEtMsg"
+        android:layout_alignRight="@id/mEtMsg"/>
+
+    <LinearLayout
+        android:layout_width="250dp"
+        android:layout_height="30dp"
+        android:layout_below="@id/mEtMsg"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/mTvAddressUsed"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_margin="3dp"
+            android:background="@color/cardview_shadow_end_color"
+            android:text="常用地址"/>
+
+        <TextView
+            android:id="@+id/mTvSubmitMsg"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:layout_weight="1"
+            android:background="@color/cardview_shadow_end_color"
+            android:gravity="center"
+            android:text="打开网址" />
+    </LinearLayout>
+</RelativeLayout>
